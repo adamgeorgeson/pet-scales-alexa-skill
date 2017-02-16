@@ -1,0 +1,6 @@
+{
+    "production": {
+        "app_function": "pet_scales.app", 
+        "s3_bucket": "zappa-p4gx4dpe1"
+    }
+}

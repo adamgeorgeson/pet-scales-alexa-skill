@@ -1,0 +1,16 @@
+welcome: "Welcome to the Pet Scales skill. Let me know when you feed your pet or when you would like me to let you know how much they have eaten."
+welcome_reprompt: "Let me know if I can help you."
+
+create_reprompt: "I didn't quite get that. If you fed your pet named Snowy 25 grams of food, let me know with Tara ate 25 grams."
+create_reprompt_again: "If you fed your pet named Snowy 25 grams of food, let me know with Snowy ate 25 grams."
+create_confirmation: "{{ petName }} ate {{ feedValue }} - Did I get that right?"
+create_successful: "I hope {{ petName }} enjoyed their meal."
+
+get_daily_totals_reprompt: "I didn't quite get that. To get the daily total for your pet, ask How much has Snowy ate today?."
+get_daily_totals_response: "{{ petName }} has eaten {{ dailyTotal }} grams"
+get_daily_totals_no_results_found: "I cannot find entries for today."
+
+unexpected_error: "I'm sorry, but something isn't right. I've notified my developer."
+
+help: "You can ask Pet Scales to record your pet meals with 'Molly ate 30 grams'. You could also ask me 'how much have my pets eaten today?'. What can I help you with?"
+bye: "Goodbye"

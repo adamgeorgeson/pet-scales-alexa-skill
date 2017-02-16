@@ -1,0 +1,11 @@
+NewFeedIntent {petName} has just eaten {feedValue} grams
+NewFeedIntent {petName} ate {feedValue} grams
+NewFeedIntent add {feedValue} grams for {petName}
+NewFeedIntent record {feedValue} grams for {petName}
+DailyTotalIntent how much has {petName} ate today
+DailyTotalIntent how much has {petName} eaten today
+DailyTotalIntent how much has {petName} had today
+DailyTotalIntent get daily report
+DailyTotalIntent how much have we fed today
+DailyTotalIntent how much have I fed today
+

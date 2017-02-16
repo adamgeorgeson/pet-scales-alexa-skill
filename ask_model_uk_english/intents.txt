@@ -1,0 +1,35 @@
+{
+  "intents": [
+    {
+      "intent": "NewFeedIntent",
+      "slots": [
+        {
+          "name": "petName",
+          "type": "AMAZON.GB_FIRST_NAME"
+        },
+        {
+          "name": "feedValue",
+          "type": "AMAZON.NUMBER"
+        }
+      ]
+    },
+    {
+      "intent": "DailyTotalIntent",
+      "slots": [
+        {
+          "name": "petName",
+          "type": "AMAZON.GB_FIRST_NAME"
+        }
+      ]
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    }
+  ]
+}
