@@ -10,22 +10,22 @@ Records your pets meals in grams
 
 ```
 Alexa, open Pet Scales
-Tara ate 30
-Snowy ate 20
+Tara ate 30 grams
+```
+
+```
+Alexa, ask Pet Scales to add 20 grams for Snowy
 ```
 
 Lets you know their daily total
 
 ```
-Alexa, open Pet Scales
-How much as Snowy ate today
+Alexa, ask Pet Scales how much my pets have eaten today
 ```
 
 ## TODO
 
- - [ ] Better handling of pet name. Maybe per user confirm their pet names.
+ - [ ] Add contribution instructions.
+ - [ ] Better handling of pet name. Maybe per user confirm their pet names with spell out and cache in Elasticache.
  - [ ] I'd like to track feeding against manufacturers recommendations.
  - [ ] Notify the companion app of running total per feed.
- - [ ] Add Lamda deployment instructions.
- - [ ] Add contribution instructions.
- - [ ] Deploy to Amazon marketplace.
