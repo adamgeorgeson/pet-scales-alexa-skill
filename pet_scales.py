@@ -26,10 +26,10 @@ def launch():
 def create_feed(pet_name, feed_value):
     try:
         if (pet_name is None or feed_value is None):
-            return statement(render_template('create_reprompt'))
+            return question(render_template('create_reprompt'))
 
         if (not feed_value.isdigit()):
-            return statement(render_template('create_reprompt_again'))
+            return question(render_template('create_reprompt_again'))
 
         dynamodb = boto3.resource('dynamodb', region_name='eu-west-1')
         table = dynamodb.Table('petFeeds')
@@ -46,7 +46,7 @@ def create_feed(pet_name, feed_value):
                 )
 
         text = render_template('create_successful', petName=pet_name)
-        return statement(text)
+        return question(text)
     except ClientError as e:
         logging.error(e.response['Error'])
         return statement(render_template('unexpected_error'))
